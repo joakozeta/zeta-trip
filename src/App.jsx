@@ -1,8 +1,12 @@
+import Home from "./components/Home"
+import Preview from "./components/Preview"
+
 function App() {
 
   return (
-    <div>
-      <h1 class="text-center font-bold text-9xl">UAKO PORREADIZIMO</h1>
+    <div className="container mx-auto max-w-screen-md">
+      <Home />
+      <Preview />
     </div>
   )
 }
