@@ -3,7 +3,7 @@ import Preview from './components/Preview'
 
 function App() {
 	return (
-		<div className='container mx-auto max-w-screen-md'>
+		<div className='container mx-auto max-w-full'>
 			<Home />
 			<Preview />
 		</div>
