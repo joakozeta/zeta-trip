@@ -7,7 +7,7 @@
     "build": "vite build",
     "lint": "eslint . --fix",
     "preview": "vite preview",
-    "phoenix": "rm -f package-lock.json && rm -rf ./node/modules && npm install --no-fund --no-audit --no-package-lock",
+    "phoenix": "git rm -f package-lock.json && rm -rf ./node/modules && npm install --no-fund --no-audit --no-package-lock",
     "prepare": "husky install"
   },
   "dependencies": {
